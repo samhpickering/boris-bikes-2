@@ -4,6 +4,5 @@ require './lib/bike'
 bike = Bike.new
 docking_station = DockingStation.new
 
-p docking_station.dock(bike)
+20.times {p docking_station.dock(Bike.new)}
 
-p docking_station.dock(bike)
